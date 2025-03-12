@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "J0rB3OV2NqaWorUkDcRnLs0GI/Q76F12ukX3MYA9Feg=",
+  "Source": "Invoicer",
+  "BasePath": "_content/Invoicer",
+  "Mode": "Default",
+  "ManifestType": "Publish",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}
