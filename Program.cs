@@ -40,14 +40,11 @@ builder.Services.AddDbContext<DatabaseContext>(options =>
 // CORS Configuration
 builder.Services.AddCors(options =>
 {
-    options.AddPolicy(name: "test_front",
-    policy =>
-    {
-        // Only allow a specific origin for development. Restrict for production.
-        policy.WithOrigins("http://localhost:5173")
-              .AllowAnyMethod()
-              .AllowAnyHeader();
-    });
+    options.AddPolicy("AllowAllOrigins",
+        policy => policy
+            .AllowAnyOrigin()
+            .AllowAnyMethod()
+            .AllowAnyHeader());
 });
 
 // Dependency Injection
@@ -61,6 +58,7 @@ builder.Services.AddSingleton<TokenService>();
 builder.Services.AddLogging();
 
 var app = builder.Build();
+app.UseCors("AllowAllOrigins");
 app.UseAuthentication();
 app.UseAuthorization();
 // Configure the HTTP request pipeline.
@@ -71,7 +69,6 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
-app.UseCors("test_front"); // Properly ordered before auth
 app.UseAuthorization();
 app.MapControllers();
 app.Run();

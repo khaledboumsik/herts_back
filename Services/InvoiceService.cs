@@ -23,10 +23,6 @@ namespace Invoicer.Services
         {
             return await _repository.GetById(id);
         }
-        public async Task AddInvoiceAsync(List<Invoice> invoices)
-        {
-            await _repository.AddInvoicesAsync(invoices);
-        }
         public async Task AddInvoice(Invoice invoice)
         {
             await _repository.Add(invoice);

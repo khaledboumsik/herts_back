@@ -527,7 +527,8 @@
           },
           "dateDeposite": {
             "type": "string",
-            "format": "date-time"
+            "format": "date-time",
+            "nullable": true
           },
           "status": {
             "type": "string",
@@ -565,7 +566,8 @@
           },
           "dateDeposite": {
             "type": "string",
-            "format": "date-time"
+            "format": "date-time",
+            "nullable": true
           },
           "providerId": {
             "type": "integer",

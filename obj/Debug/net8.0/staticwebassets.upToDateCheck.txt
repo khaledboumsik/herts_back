@@ -1,0 +1,4 @@
+wwwroot\dist\assets\index-DnW4h6Vs.css
+wwwroot\dist\assets\index-VzvfThXK.js
+wwwroot\dist\assets\logoH-CP9Kdixk.png
+wwwroot\dist\index.html

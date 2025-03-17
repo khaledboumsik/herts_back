@@ -31,6 +31,7 @@ namespace Invoicer.Repositories
 
         public async Task AddProvider(Provider provider)
         {
+            provider.Name = provider.Name.ToLower();
             _context.Providers.Add(provider);
             await _context.SaveChangesAsync();
         }
@@ -41,6 +42,7 @@ namespace Invoicer.Repositories
             {
                 try
                 {
+                    provider.Name = provider.Name.ToLower();
                     var existingProvider = await _context.Providers
                         .FirstOrDefaultAsync(p => p.Name == provider.Name);
 

@@ -9,7 +9,6 @@
         Task Add(Invoice invoice);
         Task Update(Invoice invoice);
         Task Delete(int id);
-        Task AddInvoicesAsync(List<Invoice> invoices);
         Task DeleteAll();
     }
 

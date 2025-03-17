@@ -9,7 +9,7 @@ namespace Invoicer.DTOs
         public string NFacture { get; set; } = string.Empty;
         public DateTime DateFacture { get; set; }
         public decimal Amount { get; set; }
-        public DateTime DateDeposite { get; set; }
+        public DateTime? DateDeposite { get; set; }
         public string? Status { get; set; }
         public string? StatusColor {  get; set; }
     }

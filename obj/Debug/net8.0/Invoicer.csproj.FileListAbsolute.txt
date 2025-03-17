@@ -177,3 +177,9 @@ C:\Users\Khaled\source\repos\Invoicer\Invoicer\bin\Debug\net8.0\ExcelNumberForma
 C:\Users\Khaled\source\repos\Invoicer\Invoicer\bin\Debug\net8.0\RBush.dll
 C:\Users\Khaled\source\repos\Invoicer\Invoicer\bin\Debug\net8.0\SixLabors.Fonts.dll
 C:\Users\Khaled\source\repos\Invoicer\Invoicer\bin\Debug\net8.0\System.IO.Packaging.dll
+C:\Users\Khaled\source\repos\Invoicer\Invoicer\bin\Debug\net8.0\Hertz\package.json
+C:\Users\Khaled\source\repos\Invoicer\Invoicer\bin\Debug\net8.0\Hertz\tsconfig.app.json
+C:\Users\Khaled\source\repos\Invoicer\Invoicer\bin\Debug\net8.0\Hertz\tsconfig.json
+C:\Users\Khaled\source\repos\Invoicer\Invoicer\bin\Debug\net8.0\Hertz\tsconfig.node.json
+C:\Users\Khaled\source\repos\Invoicer\Invoicer\bin\Debug\net8.0\Invoicer.staticwebassets.runtime.json
+C:\Users\Khaled\source\repos\Invoicer\Invoicer\obj\Debug\net8.0\Invoicer.sourcelink.json

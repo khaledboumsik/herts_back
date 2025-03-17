@@ -35,7 +35,7 @@ namespace Invoicer.Exporters
                     worksheet.Cell(row, 3).Value = invoice.NFacture;
                     worksheet.Cell(row, 4).Value = invoice.DateFacture.ToString("yyyy-MM-dd");
                     worksheet.Cell(row, 5).Value = invoice.Amount;
-                    worksheet.Cell(row, 6).Value = invoice.DateDeposite.ToString("yyyy-MM-dd");
+                    worksheet.Cell(row, 6).Value = invoice.DateDeposite?.ToString("yyyy-MM-dd") ?? string.Empty;
                     worksheet.Cell(row, 7).Value = invoice.Status;
                     worksheet.Cell(row, 7).Style.Fill.BackgroundColor = XLColor.FromName(invoice.StatusColor);
                     row++;

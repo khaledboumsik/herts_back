@@ -1,0 +1,41 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\Khaled\\source\\repos\\Invoicer\\Invoicer\\wwwroot\\dist\\assets\\index-DnW4h6Vs.css",
+      "PackagePath": "staticwebassets\\dist\\assets\\index-DnW4h6Vs.css"
+    },
+    {
+      "Id": "C:\\Users\\Khaled\\source\\repos\\Invoicer\\Invoicer\\wwwroot\\dist\\assets\\index-VzvfThXK.js",
+      "PackagePath": "staticwebassets\\dist\\assets\\index-VzvfThXK.js"
+    },
+    {
+      "Id": "C:\\Users\\Khaled\\source\\repos\\Invoicer\\Invoicer\\wwwroot\\dist\\assets\\logoH-CP9Kdixk.png",
+      "PackagePath": "staticwebassets\\dist\\assets\\logoH-CP9Kdixk.png"
+    },
+    {
+      "Id": "C:\\Users\\Khaled\\source\\repos\\Invoicer\\Invoicer\\wwwroot\\dist\\index.html",
+      "PackagePath": "staticwebassets\\dist\\index.html"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.Invoicer.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.Invoicer.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.Invoicer.props",
+      "PackagePath": "build\\Invoicer.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.Invoicer.props",
+      "PackagePath": "buildMultiTargeting\\Invoicer.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.Invoicer.props",
+      "PackagePath": "buildTransitive\\Invoicer.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

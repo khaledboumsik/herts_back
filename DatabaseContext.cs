@@ -14,5 +14,8 @@ public class DatabaseContext : DbContext
             .HasMany(p => p.Invoices)
             .WithOne(i => i.Provider)
             .HasForeignKey(i => i.ProviderId);
+        modelBuilder.Entity<Invoice>()
+       .Property(i => i.DateDeposite)
+       .HasDefaultValue(null); // Explicitly set default value to null
     }
 }

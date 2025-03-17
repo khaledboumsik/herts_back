@@ -1,12 +1,434 @@
 {
   "Version": 1,
-  "Hash": "nIM0hOojlyB3y85b68TUgsgNWl/sWhkrIo1ZcC5SvcA=",
+  "Hash": "w7xHaC6DFp1DjhY6VVzK9JQuGNgdmtJ0RtO62o8oyeg=",
   "Source": "Invoicer",
   "BasePath": "_content/Invoicer",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
-  "DiscoveryPatterns": [],
-  "Assets": [],
-  "Endpoints": []
+  "DiscoveryPatterns": [
+    {
+      "Name": "Invoicer\\wwwroot",
+      "Source": "Invoicer",
+      "ContentRoot": "C:\\Users\\Khaled\\source\\repos\\Invoicer\\Invoicer\\wwwroot\\",
+      "BasePath": "_content/Invoicer",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\Khaled\\source\\repos\\Invoicer\\Invoicer\\wwwroot\\dist\\assets\\index-DnW4h6Vs.css",
+      "SourceId": "Invoicer",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Khaled\\source\\repos\\Invoicer\\Invoicer\\wwwroot\\",
+      "BasePath": "_content/Invoicer",
+      "RelativePath": "dist/assets/index-DnW4h6Vs#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "77bt3jxdrv",
+      "Integrity": "DcNi5lsLXN38JIJJVr+Kpgb+6EdBLLD7zeN2r0L7p+k=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\dist\\assets\\index-DnW4h6Vs.css"
+    },
+    {
+      "Identity": "C:\\Users\\Khaled\\source\\repos\\Invoicer\\Invoicer\\wwwroot\\dist\\assets\\index-VzvfThXK.js",
+      "SourceId": "Invoicer",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Khaled\\source\\repos\\Invoicer\\Invoicer\\wwwroot\\",
+      "BasePath": "_content/Invoicer",
+      "RelativePath": "dist/assets/index-VzvfThXK#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "r6gf97i3v9",
+      "Integrity": "swSZn4Qk4eImJFElbZELznXfWFvSCUaPLG6W4eZUNO8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\dist\\assets\\index-VzvfThXK.js"
+    },
+    {
+      "Identity": "C:\\Users\\Khaled\\source\\repos\\Invoicer\\Invoicer\\wwwroot\\dist\\assets\\logoH-CP9Kdixk.png",
+      "SourceId": "Invoicer",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Khaled\\source\\repos\\Invoicer\\Invoicer\\wwwroot\\",
+      "BasePath": "_content/Invoicer",
+      "RelativePath": "dist/assets/logoH-CP9Kdixk#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "2e12og914h",
+      "Integrity": "dmS/+5KCyxL2+ollaJaPYwDqVYkw2ladQipLiBzNyNw=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\dist\\assets\\logoH-CP9Kdixk.png"
+    },
+    {
+      "Identity": "C:\\Users\\Khaled\\source\\repos\\Invoicer\\Invoicer\\wwwroot\\dist\\index.html",
+      "SourceId": "Invoicer",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Khaled\\source\\repos\\Invoicer\\Invoicer\\wwwroot\\",
+      "BasePath": "_content/Invoicer",
+      "RelativePath": "dist/index#[.{fingerprint}]?.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "bvd0czdle9",
+      "Integrity": "ybGWeJFlMxHM+z2Om9oYsip3Fr0/jg8utlN8C5in3qQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\dist\\index.html"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "dist/assets/index-DnW4h6Vs.77bt3jxdrv.css",
+      "AssetFile": "C:\\Users\\Khaled\\source\\repos\\Invoicer\\Invoicer\\wwwroot\\dist\\assets\\index-DnW4h6Vs.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3876"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"DcNi5lsLXN38JIJJVr+Kpgb+6EdBLLD7zeN2r0L7p+k=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 13 Mar 2025 13:44:47 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "77bt3jxdrv"
+        },
+        {
+          "Name": "label",
+          "Value": "dist/assets/index-DnW4h6Vs.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-DcNi5lsLXN38JIJJVr+Kpgb+6EdBLLD7zeN2r0L7p+k="
+        }
+      ]
+    },
+    {
+      "Route": "dist/assets/index-DnW4h6Vs.css",
+      "AssetFile": "C:\\Users\\Khaled\\source\\repos\\Invoicer\\Invoicer\\wwwroot\\dist\\assets\\index-DnW4h6Vs.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3876"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"DcNi5lsLXN38JIJJVr+Kpgb+6EdBLLD7zeN2r0L7p+k=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 13 Mar 2025 13:44:47 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-DcNi5lsLXN38JIJJVr+Kpgb+6EdBLLD7zeN2r0L7p+k="
+        }
+      ]
+    },
+    {
+      "Route": "dist/assets/index-VzvfThXK.js",
+      "AssetFile": "C:\\Users\\Khaled\\source\\repos\\Invoicer\\Invoicer\\wwwroot\\dist\\assets\\index-VzvfThXK.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1132386"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"swSZn4Qk4eImJFElbZELznXfWFvSCUaPLG6W4eZUNO8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 13 Mar 2025 13:44:47 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-swSZn4Qk4eImJFElbZELznXfWFvSCUaPLG6W4eZUNO8="
+        }
+      ]
+    },
+    {
+      "Route": "dist/assets/index-VzvfThXK.r6gf97i3v9.js",
+      "AssetFile": "C:\\Users\\Khaled\\source\\repos\\Invoicer\\Invoicer\\wwwroot\\dist\\assets\\index-VzvfThXK.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1132386"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"swSZn4Qk4eImJFElbZELznXfWFvSCUaPLG6W4eZUNO8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 13 Mar 2025 13:44:47 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "r6gf97i3v9"
+        },
+        {
+          "Name": "label",
+          "Value": "dist/assets/index-VzvfThXK.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-swSZn4Qk4eImJFElbZELznXfWFvSCUaPLG6W4eZUNO8="
+        }
+      ]
+    },
+    {
+      "Route": "dist/assets/logoH-CP9Kdixk.2e12og914h.png",
+      "AssetFile": "C:\\Users\\Khaled\\source\\repos\\Invoicer\\Invoicer\\wwwroot\\dist\\assets\\logoH-CP9Kdixk.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "114783"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"dmS/+5KCyxL2+ollaJaPYwDqVYkw2ladQipLiBzNyNw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 13 Mar 2025 13:44:47 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "2e12og914h"
+        },
+        {
+          "Name": "label",
+          "Value": "dist/assets/logoH-CP9Kdixk.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-dmS/+5KCyxL2+ollaJaPYwDqVYkw2ladQipLiBzNyNw="
+        }
+      ]
+    },
+    {
+      "Route": "dist/assets/logoH-CP9Kdixk.png",
+      "AssetFile": "C:\\Users\\Khaled\\source\\repos\\Invoicer\\Invoicer\\wwwroot\\dist\\assets\\logoH-CP9Kdixk.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "114783"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"dmS/+5KCyxL2+ollaJaPYwDqVYkw2ladQipLiBzNyNw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 13 Mar 2025 13:44:47 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-dmS/+5KCyxL2+ollaJaPYwDqVYkw2ladQipLiBzNyNw="
+        }
+      ]
+    },
+    {
+      "Route": "dist/index.bvd0czdle9.html",
+      "AssetFile": "C:\\Users\\Khaled\\source\\repos\\Invoicer\\Invoicer\\wwwroot\\dist\\index.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "475"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ybGWeJFlMxHM+z2Om9oYsip3Fr0/jg8utlN8C5in3qQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 13 Mar 2025 13:44:47 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "bvd0czdle9"
+        },
+        {
+          "Name": "label",
+          "Value": "dist/index.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-ybGWeJFlMxHM+z2Om9oYsip3Fr0/jg8utlN8C5in3qQ="
+        }
+      ]
+    },
+    {
+      "Route": "dist/index.html",
+      "AssetFile": "C:\\Users\\Khaled\\source\\repos\\Invoicer\\Invoicer\\wwwroot\\dist\\index.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "475"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ybGWeJFlMxHM+z2Om9oYsip3Fr0/jg8utlN8C5in3qQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 13 Mar 2025 13:44:47 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-ybGWeJFlMxHM+z2Om9oYsip3Fr0/jg8utlN8C5in3qQ="
+        }
+      ]
+    }
+  ]
 }

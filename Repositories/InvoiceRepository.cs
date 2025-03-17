@@ -10,7 +10,22 @@ namespace Invoicer.Repositories
         {
             _context = context;
         }
+        public async Task Add(Invoice invoice)
+        {
+            // Check if an invoice with the same NContract already exists
+            var existingInvoice = await _context.Invoices
+                                                .FirstOrDefaultAsync(i => i.NContract == invoice.NContract);
 
+            if (existingInvoice != null)
+            {
+                // Halt execution without throwing an exception
+                return;
+            }
+
+            // Add the new invoice if no duplicate exists
+            _context.Invoices.Add(invoice);
+            await _context.SaveChangesAsync();
+        }
         public async Task<IEnumerable<Invoice>> GetAll()
         {
             return await _context.Invoices.Include(i => i.Provider).AsQueryable().ToListAsync();
@@ -23,39 +38,6 @@ namespace Invoicer.Repositories
         public async Task<Invoice> GetById(int id)
         {
             return await _context.Invoices.Include(i => i.Provider).FirstOrDefaultAsync(i => i.Id == id);
-        }
-
-        public async Task Add(Invoice invoice)
-        {
-            _context.Invoices.Add(invoice);
-            await _context.SaveChangesAsync();
-        }
-        public async Task AddInvoicesAsync(List<Invoice> invoices)
-        {
-            foreach (var invoice in invoices)
-            {
-                try
-                {
-                    var existingInvoice = await _context.Invoices
-                        .FirstOrDefaultAsync(i => i.NContract == invoice.NContract);
-
-                    if (existingInvoice == null)
-                    {
-                        await _context.Invoices.AddAsync(invoice);
-                    }
-                    else
-                    {
-                        Console.WriteLine($"Provider with name {invoice.NContract} already exists.");
-
-                    }
-                }
-                catch (Exception ex)
-                {
-                    Console.WriteLine($"Error processing provider {invoice.NContract}: {ex.Message}");
-                }
-            }
-
-            await _context.SaveChangesAsync();
         }
         public async Task Update(Invoice invoice)
         {

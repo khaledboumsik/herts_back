@@ -31,6 +31,7 @@ namespace Invoicer.Readers
                     for (int row = 2; row <= rowCount; row++)
                     {
                         var provider = worksheet.Cells[row, 2].Text;
+                        Console.WriteLine(provider);
                         var contractNumber = worksheet.Cells[row, 3].Text;
                         var factureNumber = worksheet.Cells[row, 4].Text;
                         var factureDateText = worksheet.Cells[row, 5].Text;
@@ -39,9 +40,16 @@ namespace Invoicer.Readers
 
                         var providerId = await providerService.GetIdByName(provider.ToLower());
                         if (DateTime.TryParseExact(factureDateText, "dd/MM/yyyy", null, System.Globalization.DateTimeStyles.None, out DateTime factureDate) &&
-                            decimal.TryParse(amountText, out decimal amount) &&
-                            DateTime.TryParseExact(depositeDateText, "dd/MM/yyyy", null, System.Globalization.DateTimeStyles.None, out DateTime depositeDate))
+      decimal.TryParse(amountText, out decimal amount))
                         {
+                            DateTime? depositeDate = null;
+
+                            if (!string.IsNullOrWhiteSpace(depositeDateText) &&
+                                DateTime.TryParseExact(depositeDateText, "dd/MM/yyyy", null, System.Globalization.DateTimeStyles.None, out DateTime parsedDepositeDate))
+                            {
+                                depositeDate = parsedDepositeDate;
+                            }
+
                             Console.WriteLine(providerId);
                             if (providerId != null)
                             {
@@ -57,7 +65,7 @@ namespace Invoicer.Readers
 
                                 Console.WriteLine($"New Invoice Created: ProviderId={invoice.ProviderId}, Contract={invoice.NContract}, " +
                                                   $"Invoice Number={invoice.NFacture}, Invoice Date={invoice.DateFacture:yyyy-MM-dd}, " +
-                                                  $"Amount={invoice.Amount:C}, Deposit Date={invoice.DateDeposite:yyyy-MM-dd}");
+                                                  $"Amount={invoice.Amount:C}, Deposit Date={(depositeDate.HasValue ? depositeDate.Value.ToString("yyyy-MM-dd") : "NULL")}");
 
                                 await invoiceService.AddInvoice(invoice);
                             }

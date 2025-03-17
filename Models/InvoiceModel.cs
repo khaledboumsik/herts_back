@@ -14,12 +14,11 @@ namespace Invoicer.Repositories
         [Required]
         public required string NContract { get; set; }
 
-
         [Column(TypeName = "date")] // Store only the date part in the database
         public DateTime DateFacture { get; set; }
 
         [Column(TypeName = "date")] // Store only the date part in the database
-        public DateTime DateDeposite { get; set; }
+        public DateTime? DateDeposite { get; set; } 
 
         [ForeignKey("Provider")]
         public int ProviderId { get; set; }
